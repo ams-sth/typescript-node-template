@@ -7,7 +7,6 @@ A reusable template for building Node.js projects with TypeScript. This boilerpl
 ## **Features**
 - 🚀 **Pre-configured TypeScript** for modern JavaScript development.
 - 🔄 **Nodemon** for seamless development with hot-reloading.
-- ✅ **ESLint and Prettier** for linting and consistent code formatting.
 - 📂 Organized and **ready-to-use directory structure** for scalable projects.
 - 🌟 Includes scripts for building, development, and production.
 
