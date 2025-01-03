@@ -20,6 +20,8 @@ Clone the boilerplate to your local machine:
 ```bash
 git clone https://github.com/ams-sth/typescript-node-template.git
 cd typescript-node-template
+
+NOTE: Delete the hidden .git folder after cloning to remove the original repository link, then add your own GitHub repository link as the remote.. 
 ```
 
 ---
