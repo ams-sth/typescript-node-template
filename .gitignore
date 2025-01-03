@@ -1,0 +1,46 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/dist/
+/build/
+
+# Logs
+*.log
+*.log.*
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# TypeScript files (if applicable)
+*.tsbuildinfo
+
+# npm package lock file (optional, but often excluded in certain workflows)
+package-lock.json
+yarn.lock
+
+# Debugging and IDE files
+/.idea/
+/.vscode/
+/*.swp
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Coverage reports (for testing)
+/coverage/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Others
+*.tgz
