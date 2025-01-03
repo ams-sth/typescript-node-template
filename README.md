@@ -65,7 +65,9 @@ Update the `name` and other metadata in `package.json`:
      ```
 ---
 
-### **4. Start the Development Server**
+## **Production**
+
+### **1. Start the Development Server**
 Run the server in development mode with hot-reloading:
 ```bash
 npm run dev
@@ -73,7 +75,7 @@ npm run dev
 
 ---
 
-### **5. Build for Production**
+### **2. Build for Production**
 Compile TypeScript files into JavaScript:
 ```bash
 npm run build
