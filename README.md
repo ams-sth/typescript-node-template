@@ -36,20 +36,35 @@ Update the `name` and other metadata in `package.json`:
 
 ---
 
-### **3. Install Dependencies**
-Install all required packages:
-```bash
-npm install
-```
-Inspect outdated packages:
-```bash
-npm outdated
-```
-Update packages to the latest version:
-```bash
-npm update
-```
+### **3. Install and Manage Dependencies**
+1. **Install Dependencies**:
+   Install all required dependencies as defined in your `package.json`:
+   ```bash
+   npm install
+   ```
 
+2. **Check for Outdated Packages**:
+   To check which packages are outdated, run:
+   ```bash
+   npm outdated
+   ```
+
+3. **Update Dependencies**:
+   - To update dependencies **within the current version ranges** defined in your `package.json`, run:
+     ```bash
+     npm update
+
+     NOTE: This will not modify the version ranges in package.json, only the installed packages in node_modules.
+     ```
+   
+4. **Upgrade Dependencies to the Latest Versions**:
+   - To **upgrade** your dependencies to the latest versions (even if they fall outside the version ranges in `package.json`), use:
+     ```bash
+     npx npm-check-updates -u
+     npm install
+
+     NOTE: npx npm-check-updates -u updates both the installed packages and the version ranges in package.json to the latest versions.
+     ```
 ---
 
 ### **4. Start the Development Server**
