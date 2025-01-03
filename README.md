@@ -41,6 +41,14 @@ Install all required packages:
 ```bash
 npm install
 ```
+Inspect outdated packages:
+```bash
+npm outdated
+```
+Update packages to the latest version:
+```bash
+npm update
+```
 
 ---
 
