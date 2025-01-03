@@ -87,7 +87,5 @@ npm start
 - **`npm run dev`**: Start the development server with hot-reloading.
 - **`npm run build`**: Compile TypeScript files for production.
 - **`npm start`**: Run the production build.
-- **`npm run lint`**: Lint the code using ESLint.
-- **`npm run format`**: Format the code using Prettier.
 
 ---
