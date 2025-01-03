@@ -56,8 +56,7 @@ Update the `name` and other metadata in `package.json`:
 
      NOTE: This will not modify the version ranges in package.json, only the installed packages in node_modules.
      ```
-   
-4. **Upgrade Dependencies to the Latest Versions**:
+    **OPTIONALLY**:
    - To **upgrade** your dependencies to the latest versions (even if they fall outside the version ranges in `package.json`), use:
      ```bash
      npx npm-check-updates -u
