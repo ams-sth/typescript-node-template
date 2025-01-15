@@ -9,7 +9,7 @@ const startServer = () => {
       console.log(`Server is running on http://localhost:${port}`);
     });
   } catch (error) {
-    console.log("Failed to connect to database", error);
+    console.error("Failed to connect to database", error);
     process.exit(1);
   }
 };
