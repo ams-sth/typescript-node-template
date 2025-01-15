@@ -1,7 +1,17 @@
 import app from "./app";
 
-const port = process.env.PORT || 5000;
+const startServer = () => {
+  try {
+    const port = process.env.PORT || 5000;
 
-app.listen(port, ()=>{
-    console.log(`Server is running on http://localhost:${port}`);
-});
+    // Start the server and log a message indicating it's running
+    app.listen(port, () => {
+      console.log(`Server is running on http://localhost:${port}`);
+    });
+  } catch (error) {
+    console.log("Failed to connect to database", error);
+    process.exit(1);
+  }
+};
+
+startServer();
