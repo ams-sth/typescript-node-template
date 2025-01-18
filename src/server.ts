@@ -1,15 +1,15 @@
 import app from "./app";
+import 'colorts/lib/string';
 
 const startServer = () => {
   try {
-    const port = process.env.PORT || 5000;
+    const PORT = 3000;
 
-    // Start the server and log a message indicating it's running
-    app.listen(port, () => {
-      console.log(`Server is running on http://localhost:${port}`);
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`.green.underline.bold);
     });
   } catch (error) {
-    console.error("Failed to start the server", error);
+    console.error("Failed to start server \n".red.bold, error);
     process.exit(1);
   }
 };

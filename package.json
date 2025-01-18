@@ -1,5 +1,5 @@
 {
-  "name": "your-new-project-name",
+  "name": "rsns-backend",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -12,12 +12,11 @@
   "author": "",
   "license": "ISC",
   "description": "",
-
   "dependencies": {
+    "colorts": "^0.1.63",
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
-
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.3",
