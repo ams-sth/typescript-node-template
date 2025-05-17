@@ -94,17 +94,19 @@ npm start
 
 ## **Directory Structure**
 ```
-├── src/             # Application source code
-│   ├── config/      # Configuration files
-│   ├── controllers/ # Route controllers
-│   ├── middlewares/ # Custom middlewares
-│   ├── models/      # Data models
-│   ├── routes/      # API routes
-│   └── index.ts     # Entry point
-├── dist/            # Compiled JavaScript (generated after build)
-├── package.json     # Project metadata and scripts
-├── tsconfig.json    # TypeScript configuration
-└── README.md        # Project documentation
+├── src/                   # Application source code
+│   ├── config/            # Configuration files (e.g., env, DB)
+│   ├── controllers/       # Route controllers
+│   ├── middlewares/       # Custom Express middlewares
+│   ├── models/            # Database models
+│   ├── routes/            # Express route definitions
+│   ├── app.ts             # Express app setup
+│   └── server.ts          # Application entry point - starts the server
+├── dist/                  # Compiled JavaScript output (after build)
+├── package.json           # Project metadata, dependencies, and scripts
+├── tsconfig.json          # TypeScript configuration
+└── README.md              # Project documentation
+
 ```
 
 ---
